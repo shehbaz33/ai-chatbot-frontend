@@ -80,10 +80,25 @@ export default {
             height: "0",
           },
         },
+        "cell-ripple": {
+          "0%": {
+            opacity: "0.4",
+            transform: "scale(1)",
+          },
+          "50%": {
+            opacity: "0.9",
+            transform: "scale(1.05)",
+          },
+          "100%": {
+            opacity: "0.4",
+            transform: "scale(1)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "cell-ripple": "cell-ripple var(--duration, 400ms) ease-out var(--delay, 0ms)",
       },
     },
   },

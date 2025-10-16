@@ -38,6 +38,14 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* Grid cell colors for ripple effect */
+    --color-neutral-100: 0 0% 98%;
+    --color-neutral-300: 0 0% 83%;
+    --color-neutral-500: 0 0% 62%;
+    --color-neutral-700: 0 0% 38%;
+    --color-neutral-800: 0 0% 24%;
+    --color-neutral-900: 0 0% 9%;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -91,6 +99,14 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Grid cell colors for ripple effect - dark mode */
+    --color-neutral-100: 0 0% 98%;
+    --color-neutral-300: 0 0% 83%;
+    --color-neutral-500: 0 0% 62%;
+    --color-neutral-700: 0 0% 38%;
+    --color-neutral-800: 0 0% 24%;
+    --color-neutral-900: 0 0% 9%;
   }
 }
 
