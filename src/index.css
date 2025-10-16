@@ -8,14 +8,8 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 13% 4%;
-    --foreground: 0 0% 90%;
-    
-    --gmi-accent: 357 65% 45%;
-    --gmi-accent-glow: 357 65% 45%;
-    --gmi-bg-dark: 220 13% 4%;
-    --gmi-text: 0 0% 90%;
-    --gmi-border: 0 0% 100%;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -70,14 +64,8 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 13% 4%;
-    --foreground: 0 0% 90%;
-    
-    --gmi-accent: 357 65% 45%;
-    --gmi-accent-glow: 357 65% 45%;
-    --gmi-bg-dark: 220 13% 4%;
-    --gmi-text: 0 0% 90%;
-    --gmi-border: 0 0% 100%;
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
@@ -129,15 +117,5 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-  }
-}
-
-@layer utilities {
-  .scrollbar-hide {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
   }
 }
